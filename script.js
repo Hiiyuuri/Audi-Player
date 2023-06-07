@@ -92,6 +92,72 @@ const music_list = [
     name: 'Sweet Dream',
     artist: 'Nara Jang',
     music: 'https://docs.google.com/uc?export=download&id=117gvHLnQjsRSE8Umdg2ZSSz2G8xt64HX'
+  },
+  {
+    img: 'images/mc-mong.jpeg',
+    name: 'Sick Enough To Die',
+    artist: 'Mc Mong feat JAMIE',
+    music: 'https://docs.google.com/uc?export=download&id=1ECjeBz84MGilMMlnPwybjKSqBh39nr3X'
+  },
+  {
+    img: 'images/mc-mong.jpeg',
+    name: 'Sick Enough To Die part 2',
+    artist: 'Mc Mong feat JAMIE',
+    music: 'https://docs.google.com/uc?export=download&id=1Xm07wqgv1MfMzsDqXQYF_FMnO-kQuCjq'
+  },
+  {
+    img: 'images/vibe.jpg',
+    name: 'Vibe The Guy The Girl Remix',
+    artist: 'Vibe',
+    music: 'https://docs.google.com/uc?export=download&id=10tDY5c6vnHRophIZ1WBGSQZv5ENpjQvj'
+  },
+  {
+    img: 'images/mc-mong.jpeg',
+    name: 'Letter to you part 2',
+    artist: 'Mc Mong feat LISA',
+    music: 'https://docs.google.com/uc?export=download&id=1wl9l51wCW3jwz_F2fi31hrwq3BdYrtEJ'
+  },
+  {
+    img: 'images/mc-mong.jpeg',
+    name: 'Letter to you part 2',
+    artist: 'Mc Mong feat LISA',
+    music: 'https://docs.google.com/uc?export=download&id=1wl9l51wCW3jwz_F2fi31hrwq3BdYrtEJ'
+  },
+  {
+    img: 'images/diva.jpeg',
+    name: 'That was Love is',
+    artist: 'Diva',
+    music: 'https://docs.google.com/uc?export=download&id=1SdXMnnn1vcd5Z9_B7C2XxBdxN1wFZ7Zo'
+  },
+  {
+    img: 'images/taein.webp',
+    name: 'if Love is Lonely',
+    artist: 'Taein',
+    music: 'https://docs.google.com/uc?export=download&id=1bqmjWorvkObrLZ8UdTe7TCB5G91FyF-T'
+  },
+  {
+    img: 'images/5dolls.webp',
+    name: 'LOV',
+    artist: '5dolls',
+    music: 'https://docs.google.com/uc?export=download&id=179Phedx0qzitUCgax8JYS5MI30a_ncwb'
+  },
+  {
+    img: 'images/wildrose.jpeg',
+    name: 'Only You',
+    artist: 'Wild Rose Thorn',
+    music: 'https://docs.google.com/uc?export=download&id=1x5jLYaQyHsQSfD-bjV_KQx7vdPnGcvuW'
+  },
+  {
+    img: 'images/gogosing.jpg',
+    name: 'Gogosing',
+    artist: 'Blackpearl',
+    music: 'https://docs.google.com/uc?export=download&id=1q9ru-cIXRfRkN7ArYs1ITqcCXL99eLj-'
+  },
+  {
+    img: 'images/frappucino.jpeg',
+    name: 'Frappucino',
+    artist: 'J-Walk',
+    music: 'https://docs.google.com/uc?export=download&id=1DS6iGSqi0ECTBRAl4bNVDk0XzFUpoY8Y'
   }
   
 ];
