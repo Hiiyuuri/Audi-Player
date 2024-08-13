@@ -37,7 +37,7 @@ const music_list = [
     img: 'images/namollaN.jpeg',
     name: 'I Want to Love You',
     artist: 'Namolla Family N',
-    music: 'https://docs.google.com/uc?export=download&id=1qQrjU0dC64RASd1KJdPUwMhy3YDKpocN'
+    music: 'https://music.youtube.com/watch?v=DOzNbmygVfU&si=198OMMsaPNH8G2H8'
   },
   {
     img: 'images/davichi.jpg',
