@@ -20,15 +20,15 @@ let isPlaying = false;
 let isRandom = false;
 let updateTimer;
 
-function createWave(){
-    for(let i = 0; i < 78; i++){
-        let span = document.createElement("span")
-        span.classList.add('stroke')
-            
-        wave.appendChild(span)
-       
-    }
-    
+function createWave() {
+  for (let i = 0; i < 78; i++) {
+    let span = document.createElement("span")
+    span.classList.add('stroke')
+
+    wave.appendChild(span)
+
+  }
+
 }
 createWave()
 
@@ -37,129 +37,129 @@ const music_list = [
     img: 'images/namollaN.jpeg',
     name: 'I Want to Love You',
     artist: 'Namolla Family N',
-    music: 'https://music.youtube.com/watch?v=DOzNbmygVfU&si=198OMMsaPNH8G2H8'
+    music: 'music/1.mp3'
   },
   {
     img: 'images/davichi.jpg',
     name: 'Accident',
     artist: 'Davichi',
-    music: 'https://docs.google.com/uc?export=download&id=1ktqYJg3BoQ3ia4B6xRPyj9cVMkr3OKev'
+    music: 'music/2.mp3'
   },
   {
     img: 'images/davichi.jpg',
     name: 'Missing You Today',
     artist: 'Davichi',
-    music: 'https://docs.google.com/uc?export=download&id=1UC9lDJbRPrSzpWZHnhqlpfEdt90JW42Z'
+    music: 'music/3.mp3'
   },
   {
     img: 'images/davichi.jpg',
     name: 'Sad Promise',
     artist: 'Davichi',
-    music: 'https://docs.google.com/uc?export=download&id=1uY4nqUQzbeADg08cdQl85ED8kfTdq7Cx'
+    music: 'music/4.mp3'
   },
   {
     img: 'images/frestyle.jpeg',
     name: 'Please tell me why',
     artist: 'Frestyle Y',
-    music: 'https://docs.google.com/uc?export=download&id=1nEu_sTDCg2LLwlrwmQ6QKiPaqHYcJSDh'
+    music: 'music/5.mp3'
   },
   {
     img: 'images/zhangliyi.jpeg',
     name: 'Timeless',
     artist: 'Zhang Li Yin feat (Xiah)',
-    music: 'https://docs.google.com/uc?export=download&id=1cuvoRn-iW2V56JKkSF5_KS1OCslFmPX_'
+    music: 'music/6.mp3'
   },
   {
     img: 'images/t-araroly.jpeg',
     name: 'Roly-Poly',
     artist: 'T-ara',
-    music: 'https://docs.google.com/uc?export=download&id=1OSPgp-MgdO-4Ehb1Ht9oq1UmFuJfv_iI'
+    music: 'music/7.mp3'
   },
   {
     img: 'images/t-araroly.jpeg',
     name: 'Sugar Free',
     artist: 'T-ara',
-    music: 'https://docs.google.com/uc?export=download&id=1tMVXGC8YsIxdy-vR8cRE1ToQ_bLQmxg_'
+    music: "music/8.mp3"
   },
   {
     img: 'images/t-araroly.jpeg',
     name: 'Number 9',
     artist: 'T-ara',
-    music: 'https://docs.google.com/uc?export=download&id=15POeWQ6EOiGcjJD4hTDRMFh1RdzrxOOq'
+    music: "music/9.mp3"
   },
   {
     img: 'images/NaraJang.jpeg',
     name: 'Sweet Dream',
     artist: 'Nara Jang',
-    music: 'https://docs.google.com/uc?export=download&id=117gvHLnQjsRSE8Umdg2ZSSz2G8xt64HX'
+    music: "music/10.mp3"
   },
   {
     img: 'images/mc-mong.jpeg',
     name: 'Sick Enough To Die',
     artist: 'Mc Mong feat JAMIE',
-    music: 'https://docs.google.com/uc?export=download&id=1ECjeBz84MGilMMlnPwybjKSqBh39nr3X'
+    music: "music/11.mp3"
   },
   {
     img: 'images/mc-mong.jpeg',
     name: 'Sick Enough To Die part 2',
     artist: 'Mc Mong feat JAMIE',
-    music: 'https://docs.google.com/uc?export=download&id=1Xm07wqgv1MfMzsDqXQYF_FMnO-kQuCjq'
+    music: "music/12.mp3"
   },
   {
     img: 'images/vibe.jpg',
     name: 'Vibe The Guy The Girl Remix',
     artist: 'Vibe',
-    music: 'https://docs.google.com/uc?export=download&id=10tDY5c6vnHRophIZ1WBGSQZv5ENpjQvj'
+    music: "music/13.mp3"
   },
   {
     img: 'images/mc-mong.jpeg',
     name: 'Letter to you part 2',
     artist: 'Mc Mong feat LISA',
-    music: 'https://docs.google.com/uc?export=download&id=1wl9l51wCW3jwz_F2fi31hrwq3BdYrtEJ'
+    music: "music/14.mp3"
   },
   {
     img: 'images/mc-mong.jpeg',
     name: 'Letter to you part 2',
     artist: 'Mc Mong feat LISA',
-    music: 'https://docs.google.com/uc?export=download&id=1wl9l51wCW3jwz_F2fi31hrwq3BdYrtEJ'
+    music: "music/15.mp3"
   },
   {
     img: 'images/diva.jpeg',
     name: 'That was Love is',
     artist: 'Diva',
-    music: 'https://docs.google.com/uc?export=download&id=1SdXMnnn1vcd5Z9_B7C2XxBdxN1wFZ7Zo'
+    music: "music/16.mp3"
   },
   {
     img: 'images/taein.webp',
     name: 'if Love is Lonely',
     artist: 'Taein',
-    music: 'https://docs.google.com/uc?export=download&id=1bqmjWorvkObrLZ8UdTe7TCB5G91FyF-T'
+    music: "music/17.mp3"
   },
   {
     img: 'images/5dolls.webp',
     name: 'LOV',
     artist: '5dolls',
-    music: 'https://docs.google.com/uc?export=download&id=179Phedx0qzitUCgax8JYS5MI30a_ncwb'
+    music: "music/18.mp3"
   },
   {
     img: 'images/wildrose.jpeg',
     name: 'Only You',
     artist: 'Wild Rose Thorn',
-    music: 'https://docs.google.com/uc?export=download&id=1x5jLYaQyHsQSfD-bjV_KQx7vdPnGcvuW'
+    music: "music/19.mp3"
   },
   {
     img: 'images/gogosing.jpg',
     name: 'Gogosing',
     artist: 'Blackpearl',
-    music: 'https://docs.google.com/uc?export=download&id=1q9ru-cIXRfRkN7ArYs1ITqcCXL99eLj-'
+    music: "music/20.mp3"
   },
   {
     img: 'images/frappucino.jpeg',
     name: 'Frappucino',
     artist: 'J-Walk',
-    music: 'https://docs.google.com/uc?export=download&id=1DS6iGSqi0ECTBRAl4bNVDk0XzFUpoY8Y'
+    music: "music/21.mp3"
   }
-  
+
 ];
 
 loadTrack(track_index);
@@ -180,7 +180,7 @@ function loadTrack(index) {
   updateTimer = setInterval(setUpdate, 1000);
 
   curr_track.addEventListener('ended', nextTrack);
-//   random_bg_color();
+  //   random_bg_color();
 }
 
 function random_bg_color() {
